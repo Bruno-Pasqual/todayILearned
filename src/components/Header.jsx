@@ -3,7 +3,7 @@ const Header = ({ showForm, setShowForm }) => {
     <header>
       <div className="wrapper">
         <img className="logoIcon" src="/public/logo.png" alt="" />
-        <h1>Today i learned</h1>
+        <h1 className="title">Today i learned</h1>
       </div>
       <button onClick={() => setShowForm(!showForm)}>
         {showForm ? 'close' : 'Share a fact'}
